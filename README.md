@@ -1,7 +1,6 @@
 # DXOpal
 
-Game development framework for [Opal](https://opalrb.com/),
-has similar API to [DXRuby](http://dxruby.osdn.jp/)
+Game development framework for [Opal](https://opalrb.com/), has similar API to [DXRuby](http://dxruby.osdn.jp/)
 
 ## Demo
 
