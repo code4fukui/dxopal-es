@@ -1,5 +1,7 @@
 # DXOpal
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Game development framework for [Opal](https://opalrb.com/), has similar API to [DXRuby](http://dxruby.osdn.jp/)
 
 ## Demo
