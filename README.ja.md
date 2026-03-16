@@ -1,6 +1,6 @@
 # DXOpal
 
-Opalゲーム開発フレームワーク。[DXRuby](http://dxruby.osdn.jp/)と似たようなAPIを提供しています。
+Opal言語を使ったゲーム開発フレームワークです。[DXRuby](http://dxruby.osdn.jp/)と似たようなAPIを提供しています。
 
 ## デモ
 
