@@ -1,16 +1,28 @@
-# DXOpal
+# dxopal-es
 
-Game development framework for [Opal](https://opalrb.com/),
-has similar API to [DXRuby](http://dxruby.osdn.jp/)
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
+Game development framework for [Opal](https://opalrb.com/) with a [DXRuby](http://dxruby.osdn.jp/)-like API, enabling Ruby-based game creation in the browser.
 
 ## Demo
 
-- [triangles game in Ruby](https://code4fukui.github.io/dxopal-es/examples/es/triangles.html)
-- [call JavaScript function from Ruby](https://code4fukui.github.io/dxopal-es/examples/es/)
+- [Triangles Game](https://code4fukui.github.io/dxopal-es/examples/es/triangles.html)
+- [JavaScript Interop Example](https://code4fukui.github.io/dxopal-es/examples/es/)
 
-## How to use
+## Features
 
-see https://yhara.github.io/dxopal/
+- **Ruby in the Browser**: Write game logic in Ruby, compiled to JavaScript by Opal.
+- **DXRuby-like API**: A familiar API for developers with experience in the popular Japanese game library.
+- **2D Rendering**: Draw shapes, images, and text on an HTML5 canvas.
+- **Input Handling**: Built-in support for keyboard, mouse, and touch events.
+- **Audio**: Play sound files and generate sound effects with the Web Audio API.
+- **JavaScript Interop**: Easily call JavaScript functions from your Ruby code.
+
+## Usage
+
+For detailed API documentation, see [yhara.github.io/dxopal](https://yhara.github.io/dxopal/).
+
+Embed the following code in your HTML file to get started:
 
 ```html
 <canvas id="dxopal-canvas"></canvas>
@@ -38,14 +50,14 @@ end
 
 ## License
 
-MIT (including images and sounds under examples/)
+MIT (including images and sounds under `examples/`)
 
 ## Acknowledgements
 
 - [Opal](https://opalrb.com/)
 - [DXRuby](http://dxruby.osdn.jp/)
-- [Bxfr](https://www.bfxr.net/) examples/apple_catcher/sounds/Explosion2.wav is made by this
+- [Bxfr](https://www.bfxr.net/): The sound file `examples/apple_catcher/sounds/Explosion2.wav` was created using this tool.
 
 ## Contact
 
-https://github.com/yhara/dxopal
+This repository is a fork. The original project can be found at: https://github.com/yhara/dxopal
